@@ -7,12 +7,17 @@
     "license": "WTFPL",
     "autoload": {
         "psr-4": {
-            "Fern\\Aoc22\\": "src/"
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
         }
     },
     "authors": [
         {
-            "name": "FERN"
+            "name": "Fernando"
         }
     ],
     "require": {
