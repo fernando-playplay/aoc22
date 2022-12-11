@@ -26,12 +26,12 @@ final class RucksackReorganiserTest extends TestCase
     public function testItReturnsTheExpectedResultFromControlDataPart2(): void
     {
         $sut = new RucksackReorganiser(true);
-        $this->assertSame(12, $sut->getPrioritiesSum());
+        $this->assertSame(70, $sut->getGroupPrioritiesSum());
     }
 
-//    public function testItReturnsTheExpectedResultFromActualDataPart2(): void
-//    {
-//        $sut = new RucksackReorganiser();
-//        $this->assertSame(13726, $sut->getPrior());
-//    }
+    public function testItReturnsTheExpectedResultFromActualDataPart2(): void
+    {
+        $sut = new RucksackReorganiser();
+        $this->assertSame(2616, $sut->getGroupPrioritiesSum());
+    }
 }
