@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace App\day5;
 
-use PHPUnit\Util\Xml\ValidationResult;
-
 final class SupplyStacks
 {
     private \SplFileObject $dataFile;

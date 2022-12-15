@@ -5,7 +5,7 @@ namespace Tests\day1;
 use App\day1\ElfCalorieCounter;
 use PHPUnit\Framework\TestCase;
 
-final class TestElfCalorieCounter extends TestCase
+final class ElfCalorieCounterTest extends TestCase
 {
     public function testItReturnsTheExpectedResultFromControlData(): void
     {

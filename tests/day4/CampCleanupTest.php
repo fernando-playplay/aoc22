@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace Tests\day4;
 
-use App\day2\SecondYankenpoTournament;
-use App\day2\YankenpoTournament;
-use App\day3\RucksackReorganiser;
 use App\day4\CampCleanup;
 use PHPUnit\Framework\TestCase;
 
